@@ -1,0 +1,58 @@
+SELECT * FROM "items";
++----+-------------------------+-------+
+| id |          name           | price |
++----+-------------------------+-------+
+| 1  | CS50 Rubber Duck        | 4.99  |
+| 2  | CS50 Pen                | 4.99  |
+| 3  | CS50 Sunglasses         | 9.99  |
+| 4  | CS50 Unisex T-Shirt     | 30    |
+| 5  | CS50 Hoodie             | 42    |
+| 6  | CS50 Toddler Shirt      | 20    |
+| 7  | CS50 Pillow             | 28    |
+| 8  | CS50 Mug                | 14    |
+| 9  | CS50 Embroidered Beanie | 24    |
+| 10 | CS50 Kids T-Shirt       | 25    |
++----+-------------------------+-------+
+
+sqlite> SELECt * FROM "orders" LIMIT 5;
++----+---------+---------+----------+
+| id | user_id | item_id | quantity |
++----+---------+---------+----------+
+| 1  | 37      | 5       | 1        |
+| 2  | 33      | 5       | 7        |
+| 3  | 38      | 6       | 10       |
+| 4  | 48      | 3       | 5        |
+| 5  | 27      | 6       | 7        |
++----+---------+---------+----------+
+
+sqlite> SELECT * FROM "user_logs" LIMIT 10;
++----+--------+--------------+--------------+--------------+----------------------------------+
+| id |  type  | old_username | new_username | old_password |           new_password           |
++----+--------+--------------+--------------+--------------+----------------------------------+
+| 1  | insert | NULL         | admin        | NULL         | e10adc3949ba59abbe56e057f20f883e |
+| 2  | insert | NULL         | emily33      | NULL         | 44bf025d27eea66336e5c1133c3827f7 |
+| 3  | insert | NULL         | zad28        | NULL         | 185f20cc5599d33a1a94eb426112c78a |
+| 4  | insert | NULL         | mario17      | NULL         | ccce73b2ef30ecf08c9cf0e802fa9149 |
+| 5  | insert | NULL         | ezra2        | NULL         | dbbe590bcc018ea53ca04caf89e0a98c |
+| 6  | insert | NULL         | varsha15     | NULL         | 9ce87254bdeb236140b9f16382e88589 |
+| 7  | insert | NULL         | jonathan30   | NULL         | ce4db146e55cd5518a337dbadffc7a45 |
+| 8  | insert | NULL         | dalila20     | NULL         | f73bbedf4dcabf7504b6e7358dd60c79 |
+| 9  | insert | NULL         | jennifer18   | NULL         | 3cb8c29b3106e0f395fbbdb9ed9d7eb6 |
+| 10 | insert | NULL         | carina10     | NULL         | 350bbcfcc4b17d00c6df46165bac7d10 |
++----+--------+--------------+--------------+--------------+----------------------------------+
+
+sqlite> SELECT * FROM "users" LIMIT 10;
++----+------------+----------------------------------+
+| id |  username  |             password             |
++----+------------+----------------------------------+
+| 1  | admin      | e10adc3949ba59abbe56e057f20f883e |
+| 2  | emily33    | 44bf025d27eea66336e5c1133c3827f7 |
+| 3  | zad28      | 185f20cc5599d33a1a94eb426112c78a |
+| 4  | mario17    | ccce73b2ef30ecf08c9cf0e802fa9149 |
+| 5  | ezra2      | dbbe590bcc018ea53ca04caf89e0a98c |
+| 6  | varsha15   | 9ce87254bdeb236140b9f16382e88589 |
+| 7  | jonathan30 | ce4db146e55cd5518a337dbadffc7a45 |
+| 8  | dalila20   | f73bbedf4dcabf7504b6e7358dd60c79 |
+| 9  | jennifer18 | 3cb8c29b3106e0f395fbbdb9ed9d7eb6 |
+| 10 | carina10   | 350bbcfcc4b17d00c6df46165bac7d10 |
++----+------------+----------------------------------+
