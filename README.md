@@ -2,8 +2,11 @@
 
 This repository contains all my files from this CS50 course.
 It is organized by the weeks of the course and the files I used for each activity.
+
  **my_exercices** - A folder created to contain my solutions for each exercise, with each folder representing a different problem set and its respective solutions.
+ 
  **my_schemas** - A folder created to store what I worked on during the lessons.
+ 
  **src** - A folder that contains all the material used by the teacher during the lessons.
 
 
