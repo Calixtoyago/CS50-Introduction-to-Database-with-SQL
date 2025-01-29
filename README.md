@@ -61,9 +61,9 @@ This week I practiced writing complex queries, inserting data, and automating ta
 ## Week 4 - Viewing
 This week I learned how to create and use `VIEW`to improve the database `SELECT`queries.
 
-1️⃣**CREATE VIEW**: Learned how to create those views
-2️⃣**Common Table Expression (CTE)**: Practiced some CTE to improve and make a query more readable
-3️⃣**CREATE TEMPORARY VIEW**: Just like the `CREATE VIEW` but this one is used while the database is activated
+1️⃣**CREATE VIEW**: Learned how to create those views.
+2️⃣**Common Table Expression (CTE)**: Practiced some CTE to improve and make a query more readable.
+3️⃣**CREATE TEMPORARY VIEW**: Just like the `CREATE VIEW` but this one is used while the database is activated.
 
 [Week 4 - Viewing](https://github.com/Calixtoyago/CS50-Introduction-to-Database-with-SQL/tree/main/Week%204%20Viewing)
 
@@ -72,9 +72,9 @@ This week I learned how to create and use `VIEW`to improve the database `SELECT`
 ## Week 5 - Optimizing
 This week I focused on how to improve the search speed of my queries using `INDEX`.
 
-**CREATE INDEX**: This was the main syntax on this week, it's used to improve and optimize queries in the database
-**EXPLAIN QUERY PLAN**: This command show us how sqlite is searching some information from a `SELECT`query
-**BEGIN TRANSACTION**: Practice how to do multiples changes in datas at the same time
+1️⃣**CREATE INDEX**: This was the main syntax on this week, it's used to improve and optimize queries in the database.
+2️⃣**EXPLAIN QUERY PLAN**: This command show us how sqlite is searching some information from a `SELECT`query.
+3️⃣**BEGIN TRANSACTION**: Practice how to do multiples changes in datas at the same time.
 
 [Week 5 - Optimizing](https://github.com/Calixtoyago/CS50-Introduction-to-Database-with-SQL/tree/main/Week%205%20Optimizing)
 
