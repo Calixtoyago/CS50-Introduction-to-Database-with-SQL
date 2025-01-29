@@ -1,1 +1,1 @@
-Week[[:space:]]5[[:space:]]Optimizing/my_schemas/index/movies.db filter=lfs diff=lfs merge=lfs -text
+*.db filter=lfs diff=lfs merge=lfs -text
