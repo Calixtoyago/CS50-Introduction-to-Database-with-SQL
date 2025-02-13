@@ -79,3 +79,14 @@ This week I focused on how to improve the search speed of my queries using `INDE
 [Week 5 - Optimizing](https://github.com/Calixtoyago/CS50-Introduction-to-Database-with-SQL/tree/main/Week%205%20Optimizing)
 
 ---
+
+## Week 6 - Scaling
+THis week I worked on scaling sqlite3 databases to MySQL and PostgreSQL
+
+1️⃣**MySQL and PostgreSQL**: Learnt how to create, modify and manage those DBMS.
+2️⃣**Access Control**: Give differents permissions to users in the database.
+3️⃣**Scalability**: I differentiated vertical scaling from horizontal scaling, and I explored techniques like Read Replicas and Sharding.
+
+[Week 6 - Scaling](https://github.com/Calixtoyago/CS50-Introduction-to-Database-with-SQL/tree/main/Week_6_Scaling)
+
+---
