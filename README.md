@@ -98,6 +98,6 @@ This is my CS50's Introduction to Databases with SQL final project, where I demo
 2️⃣**Funcionalities**: The user can add, remove, edit, rate and review the books
 3️⃣**Entities**: It has books, authors and genres as its main entities
 
-[Final Project](https://github.com/Calixtoyago/CS50-Introduction-to-Database-with-SQL/tree/main/Final_Project)
+[Final Project](https://github.com/Calixtoyago/CS50-Introduction-to-Database-with-SQL/tree/main/Final%20Project)
 
 ---
