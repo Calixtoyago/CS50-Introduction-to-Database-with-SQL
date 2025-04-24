@@ -90,3 +90,14 @@ THis week I worked on scaling sqlite3 databases to MySQL and PostgreSQL
 [Week 6 - Scaling](https://github.com/Calixtoyago/CS50-Introduction-to-Database-with-SQL/tree/main/Week_6_Scaling)
 
 ---
+
+## Final Project
+This is my CS50's Introduction to Databases with SQL final project, where I demonstrate the skills and knowledge I acquired during the course.
+
+1️⃣**Books catalog**: Created a database to register and review my readings
+2️⃣**Funcionalities**: The user can add, remove, edit, rate and review the books
+3️⃣**Entities**: It has books, authors and genres as its main entities
+
+[Final Project](https://github.com/Calixtoyago/CS50-Introduction-to-Database-with-SQL/tree/main/Final_Project)
+
+---
